@@ -1,11 +1,12 @@
 import React from 'react'
-import { SafeAreaView, StatusBar, Text } from 'react-native'
+import { SafeAreaView, StatusBar } from 'react-native'
+import Header from './src/Header'
 
 const App = () => {
   return (
     <SafeAreaView>
       <StatusBar barStyle={true ? 'light-content' : 'dark-content'} />
-      <Text>HALO</Text>
+      <Header title="Ini Header" />
     </SafeAreaView>
   )
 }
